@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28c602a04930b90499fae4d733020ebe, type: 3}
+  m_Name: Pizza Dough Recipe
+  m_EditorClassIdentifier: 
+  id: pizza_dough_recipe
+  recipe:
+    craftTime: 5
+    input:
+    - item: {fileID: 11400000, guid: 063b966fb87804c428f87cec97c50fdf, type: 2}
+      count: 1
+    - item: {fileID: 11400000, guid: f95f74611d3f475428e5236b51355582, type: 2}
+      count: 1
+    - item: {fileID: 11400000, guid: 85156d3557026e548bd45748bcbf115e, type: 2}
+      count: 2
+    output:
+    - item: {fileID: 11400000, guid: a02ca686768197e47ae6578a812b8954, type: 2}
+      count: 1

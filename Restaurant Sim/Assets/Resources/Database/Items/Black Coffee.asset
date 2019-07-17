@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243591bbd0821f408ee762c39753656, type: 3}
+  m_Name: Black Coffee
+  m_EditorClassIdentifier: 
+  id: black_coffee
+  name: Black Coffee
+  m_image: {fileID: 21300000, guid: 634598177f018fa40bd86d20de51b0b5, type: 3}
+  m_model: {fileID: 8471775633498202714, guid: ec443c70d80cf4640bc5b761b2c6ffdf, type: 3}
+  description: Coffee without milk. Can be drunk on it's own.
+  rottable: 1
+  rotTime: 60
+  rotTimeReturnable: 0
+  garbageValue: 5
+  needsFridge: 0
+  cannotShelf: 1
+  mixOptions:
+  - otherItem: {fileID: 11400000, guid: e2fea77b22ec37746a677efceffc768e, type: 2}
+    resultItem: {fileID: 11400000, guid: c85ea3c719f20ba4298777555f94d1da, type: 2}
+    mixTime: 1

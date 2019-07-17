@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243591bbd0821f408ee762c39753656, type: 3}
+  m_Name: Oil
+  m_EditorClassIdentifier: 
+  id: oil
+  name: Oil
+  m_image: {fileID: 21300000, guid: e465a681739c7bf44a75a438adfc2661, type: 3}
+  m_model: {fileID: 0}
+  description: Sunflower oil used to make food non sticky.
+  rottable: 0
+  rotTime: 0
+  rotTimeReturnable: 0
+  garbageValue: 5
+  needsFridge: 0

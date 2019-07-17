@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2243591bbd0821f408ee762c39753656, type: 3}
+  m_Name: Milk
+  m_EditorClassIdentifier: 
+  name: Milk
+  m_image: {fileID: 21300000, guid: 0018a8b783b0af349a780553f0ccd632, type: 3}
+  m_model: {fileID: 2916441092283594468, guid: 69f52edadf05e7742b75d3fab74b051f, type: 3}
+  description: Fine ass milk that is white and milky. Just like my women.
+  rottable: 1
+  rotTime: 10
+  rotTimeReturnable: 10
+  garbageValue: 5
+  needsFridge: 1
+  cannotShelf: 0
+  mixOptions: []
